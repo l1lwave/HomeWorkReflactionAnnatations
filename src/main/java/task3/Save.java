@@ -1,4 +1,6 @@
 package task3;
 
-public class Save {
-}
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@interface Save {}
